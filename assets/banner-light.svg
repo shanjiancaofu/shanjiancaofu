@@ -15,5 +15,25 @@
   </g>
   <g transform="translate(920,85)" fill="#ffffff" fill-opacity="0.12">
     <rect x="0" y="0" width="220" height="120" rx="12" />
+    <!-- embedded subtle animation -->
+    <g transform="translate(8,8)">
+      <rect x="-220" y="0" width="220" height="104" rx="10" fill="url(#g)" fill-opacity="0.10">
+        <animate attributeName="x" from="-220" to="220" dur="6s" repeatCount="indefinite" />
+      </rect>
+      <g>
+        <circle cx="10" cy="52" r="6" fill="#2b6cb0">
+          <animate attributeName="cx" values="10;110;210" dur="6s" repeatCount="indefinite" />
+          <animate attributeName="fill" values="#2b6cb0;#60d5b5;#2dd4bf" dur="6s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="10" cy="72" r="4" fill="#60d5b5">
+          <animate attributeName="cx" values="10;110;210" dur="6s" begin="0.8s" repeatCount="indefinite" />
+          <animate attributeName="fill" values="#60d5b5;#2dd4bf;#2b6cb0" dur="6s" begin="0.8s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="10" cy="32" r="3" fill="#2dd4bf">
+          <animate attributeName="cx" values="10;110;210" dur="6s" begin="1.6s" repeatCount="indefinite" />
+          <animate attributeName="fill" values="#2dd4bf;#2b6cb0;#60d5b5" dur="6s" begin="1.6s" repeatCount="indefinite" />
+        </circle>
+      </g>
+    </g>
   </g>
 </svg>

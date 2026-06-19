@@ -3,10 +3,7 @@
   <img loading="lazy" width="94%" src="./assets/banner-light.svg" alt="banner" />
 </p>
 
-<p align="center">
-  <img loading="lazy" width="94%" src="./assets/hero-anim.svg" alt="hero animation" />
-</p>
-
+<!-- animation now embedded into the banner -->
 <p align="center">
   <h1>shanjiancaofu</h1>
   <p>嵌入式与车载系统工程师 · 实用为先 · 持续学习</p>

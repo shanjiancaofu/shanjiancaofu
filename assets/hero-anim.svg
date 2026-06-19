@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="zh-CN" width="900" height="120" viewBox="0 0 900 120">
   <defs>
     <linearGradient id="g1" x1="0" x2="1">
       <stop offset="0%" stop-color="#2b6cb0"/>
@@ -33,7 +34,5 @@
     </circle>
   </g>
 
-  <!-- subtle labels -->
-  <text x="40" y="24" font-family="Segoe UI, Microsoft YaHei, Arial" font-size="12" fill="#1f2937" opacity="0.9">实时活动</text>
-  <text x="40" y="44" font-family="Segoe UI, Microsoft YaHei, Arial" font-size="10" fill="#4b5563" opacity="0.8">根据仓库更新与提交生成</text>
+  <!-- labels removed to avoid font/encoding rendering issues in GitHub README -->
 </svg>
