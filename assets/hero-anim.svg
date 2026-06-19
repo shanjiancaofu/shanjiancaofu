@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#2b6cb0"/>
+      <stop offset="100%" stop-color="#60d5b5"/>
+    </linearGradient>
+    <filter id="f" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="120" rx="12" fill="#ffffff" fill-opacity="0.00"/>
+
+  <!-- scanning beam -->
+  <rect x="-300" y="10" width="300" height="100" rx="12" fill="url(#g1)" fill-opacity="0.12">
+    <animate attributeName="x" from="-300" to="900" dur="6s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- moving dots -->
+  <g transform="translate(80,60)">
+    <circle cx="0" cy="0" r="8" fill="#2b6cb0">
+      <animate attributeName="cx" values="0;220;440;660;880" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="fill" values="#2b6cb0;#60d5b5;#2dd4bf;#60d5b5;#2b6cb0" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="5" fill="#60d5b5" transform="translate(0,0)">
+      <animate attributeName="cx" values="0;220;440;660;880" dur="6s" begin="0.8s" repeatCount="indefinite" />
+      <animate attributeName="fill" values="#60d5b5;#2dd4bf;#2b6cb0;#60d5b5;#2dd4bf" dur="6s" begin="0.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="4" fill="#2dd4bf" transform="translate(0,0)">
+      <animate attributeName="cx" values="0;220;440;660;880" dur="6s" begin="1.6s" repeatCount="indefinite" />
+      <animate attributeName="fill" values="#2dd4bf;#2b6cb0;#60d5b5;#2dd4bf;#2b6cb0" dur="6s" begin="1.6s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- subtle labels -->
+  <text x="40" y="24" font-family="Segoe UI, Microsoft YaHei, Arial" font-size="12" fill="#1f2937" opacity="0.9">实时活动</text>
+  <text x="40" y="44" font-family="Segoe UI, Microsoft YaHei, Arial" font-size="10" fill="#4b5563" opacity="0.8">根据仓库更新与提交生成</text>
+</svg>

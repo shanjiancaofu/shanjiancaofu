@@ -1,12 +1,10 @@
-<!--
-  ============================================================
-  个人主页（已由 shanjiancaofu 调整）
-  目标：简洁、专业、易读；避免与参考作者风格过于相似。
-  ============================================================
--->
 
 <p align="center">
   <img loading="lazy" width="94%" src="./assets/banner-light.svg" alt="banner" />
+</p>
+
+<p align="center">
+  <img loading="lazy" width="94%" src="./assets/hero-anim.svg" alt="hero animation" />
 </p>
 
 <p align="center">
@@ -39,7 +37,7 @@
 ## 代表仓库
 
 - [vehicle-system](./vehicle-system) — 车机平台、部署脚本与服务
-- [ffz-os](./ffz-os) — 教学内核与 boot 流程练习
+- [ffz-os](./ffz-os) — 内核与 boot 流程练习
 - [cloud-server](./cloud-server) — 辅助后端与集成测试工具
 
 （仓库按功能划分，欢迎在 Issues 指定你想看的模块）
@@ -57,9 +55,7 @@
 
 ## 联系方式
 
-- 邮箱：1264206065@qq.com
+- 邮箱：528432910@qq.com
 - 如果你在中国大陆，欢迎在 Issues 或通过邮箱联系我讨论技术细节。
 
 ---
-
-*README 已由我调整为更简洁和中性化的个人主页风格；如果你希望更鲜明的视觉（深色主题、品牌色、动态图等），我可以继续在 `assets/` 下添加新的图片并替换此处展示。*
