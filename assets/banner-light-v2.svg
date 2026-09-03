@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#2b6cb0" />
+      <stop offset="60%" stop-color="#60d5b5" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect x="20" y="20" width="1160" height="260" rx="18" fill="url(#g)" filter="url(#shadow)" />
+  <g font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" fill="#fff">
+    <text x="70" y="110" font-size="46" font-weight="700">shanjiancaofu</text>
+    <text x="70" y="160" font-size="20" font-weight="500" fill-opacity="0.95">端侧智能 · 模型部署 · 系统工程</text>
+  </g>
+  <g transform="translate(920,85)" fill="#ffffff" fill-opacity="0.12">
+    <rect x="0" y="0" width="220" height="120" rx="12" />
+    <!-- embedded subtle animation -->
+    <g transform="translate(8,8)">
+      <rect x="-220" y="0" width="220" height="104" rx="10" fill="url(#g)" fill-opacity="0.10">
+        <animate attributeName="x" from="-220" to="220" dur="6s" repeatCount="indefinite" />
+      </rect>
+      <g>
+        <circle cx="10" cy="52" r="6" fill="#2b6cb0">
+          <animate attributeName="cx" values="10;110;210" dur="6s" repeatCount="indefinite" />
+          <animate attributeName="fill" values="#2b6cb0;#60d5b5;#2dd4bf" dur="6s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="10" cy="72" r="4" fill="#60d5b5">
+          <animate attributeName="cx" values="10;110;210" dur="6s" begin="0.8s" repeatCount="indefinite" />
+          <animate attributeName="fill" values="#60d5b5;#2dd4bf;#2b6cb0" dur="6s" begin="0.8s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="10" cy="32" r="3" fill="#2dd4bf">
+          <animate attributeName="cx" values="10;110;210" dur="6s" begin="1.6s" repeatCount="indefinite" />
+          <animate attributeName="fill" values="#2dd4bf;#2b6cb0;#60d5b5" dur="6s" begin="1.6s" repeatCount="indefinite" />
+        </circle>
+      </g>
+    </g>
+  </g>
+</svg>
