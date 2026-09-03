@@ -1,48 +1,46 @@
-
 <p align="center">
-  <img loading="lazy" width="94%" src="./assets/banner-light.svg" alt="banner" />
-</p>
-
-<!-- animation now embedded into the banner -->
-<p align="center">
-  <h1>shanjiancaofu</h1>
-  <p>嵌入式与车载系统工程师 · 实用为先 · 持续学习</p>
+  <img loading="lazy" width="94%" src="./assets/banner-light.svg" alt="shanjiancaofu" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/LANG-C%2B%2B%20%7C%20C-2b6cb0?style=for-the-badge" alt="lang" />
-  <img src="https://img.shields.io/badge/TOOL-ARM%20GCC%20%7C%20CMake-60d5b5?style=for-the-badge" alt="tool" />
-  <img src="https://img.shields.io/badge/FOCUS-嵌入式%20%7C%20车载-2dd4bf?style=for-the-badge" alt="focus" />
+  专注系统开发，把复杂问题拆开解决
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2FC%2B%2B-Linux%20%7C%20Jetson%20%7C%20STM32-2b6cb0?style=for-the-badge" alt="C/C++ · Linux · Jetson · STM32" />
+  <img src="https://img.shields.io/badge/Topics-CAN%20FD%20%7C%20Drivers%20%7C%20Systems-60d5b5?style=for-the-badge" alt="CAN FD · Drivers · Systems" />
 </p>
 
 ---
 
 ## 简短介绍
 
-以工程问题为导向，擅长驱动与系统整合。我的目标是把复杂系统拆成可交付的小步（小到能写单元、能测、能复现）。项目以可维护性与可重复构建为首要目标。
+主要使用 C/C++，平时在 Linux、Jetson 和 STM32 上做系统开发。
+关注设备树、传感器接入、CAN FD，以及从硬件联调到软件交付的完整过程。
 
 ---
 
-## 现在在做 / 近期重点
+## 当前关注
 
-- 优化车载系统启动流程（Boot、BSP、故障恢复）
-- 在用 `CMake` 整理交叉编译与 CI 流程
-- 构建小型 OTA 更新验证链路（侧重稳定性与回滚）
+- Jetson Orin Nano 与 STM32G474 协同控制，打通 CAN FD 通信和电机控制
+- 基于 Jetson Orin 的智能座舱系统，以及设备接入和系统整合
+- C/C++ 工程化开发、底层调试和开发工具改进
 
 ---
 
 ## 代表仓库
 
-- [vehicle-system](./vehicle-system) — 车机平台、部署脚本与服务
-- [ffz-os](./ffz-os) — 内核与 boot 流程练习
-- [cloud-server](./cloud-server) — 辅助后端与集成测试工具
+- [chassis-controller](https://github.com/shanjiancaofu/chassis-controller) — 🚧 Jetson Orin Nano + STM32G474 底盘控制，CAN FD / 电机控制
+- [cockpit-system](https://github.com/shanjiancaofu/cockpit-system) — 🚧 基于 Jetson Orin 的智能座舱系统，C++ / Linux
+- [claude-code-vscode-zh-cn](https://github.com/shanjiancaofu/claude-code-vscode-zh-cn) — ✅ Claude Code VS Code 中文补丁工具，TypeScript
+- [ffz-os](https://github.com/shanjiancaofu/ffz-os) — 🧪 内核、Boot 与底层系统实验
 
 ---
 
 ## 统计与贡献
 
 <p align="center">
-  <img loading="lazy" width="48%" src="https://github-readme-stats.vercel.app/api?username=shanjiancaofu&show_icons=true&hide_border=true&locale=cn&title_color=2b6cb0&text_color=1f2937&icon_color=60d5b5&ring_color=2dd4bf&theme=transparent" alt="GitHub stats" />
+  <img loading="lazy" width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shanjiancaofu&theme=github" alt="GitHub stats" />
   <img loading="lazy" width="48%" src="https://streak-stats.demolab.com?user=shanjiancaofu&hide_border=true&locale=zh_Hans&ring=2b6cb0&fire=60d5b5&sideLabels=2b6cb0&theme=transparent" alt="Streak stats" />
 </p>
 
@@ -50,5 +48,4 @@
 
 ## 联系方式
 
-- 邮箱：528432910@qq.com
-- 如果你在中国大陆，欢迎在 Issues 或通过邮箱联系我讨论技术细节。
+欢迎通过 [Issues](https://github.com/shanjiancaofu/shanjiancaofu/issues) 或邮箱交流技术问题：528432910@qq.com
